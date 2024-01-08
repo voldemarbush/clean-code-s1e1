@@ -30,7 +30,7 @@
 .main__add-input, .main__task-input, .main__task-text {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .main__add-wrapper {
   display: flex;
@@ -104,7 +104,7 @@
 }
 .main__task-input {
   display: none;
-  width: 226px
+  width: 226px;
 }
 .main__task-check {
   margin: 0 10px;
@@ -126,15 +126,15 @@
 
 /* Completed */
 .main__completed-list .main__task-text {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .main__edit-mode > .main__task-text {
-  display: none
+  display: none;
 }
 .main__edit-mode > .main__task-input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
