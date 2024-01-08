@@ -36,14 +36,14 @@
   display: flex;
 }
 .main__todo-list, .main__completed-list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .main__task, .main__heading {
-  list-style:none;
+  list-style: none;
 }
 .main__add-input,.main__add-btn,.main__edit-btn {
-  outline:none;
+  outline: none;
 }
 .main__add-btn, .main__edit-btn,.main__delete-btn {
   background: none;
@@ -132,9 +132,9 @@
 
 /* Edit Task */
 .main__edit-mode > .main__task-text {
-  display:none
+  display: none
 }
 .main__edit-mode > .main__task-input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
