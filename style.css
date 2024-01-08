@@ -18,7 +18,8 @@
 }
 
 @media (max-width:768px) {
-  .info {  text-align: center;
+  .info {
+    text-align: center;
   }
 }
 .main {
@@ -41,7 +42,7 @@
 .main__task, .main__heading {
   list-style:none;
 }
-.main__add-input,.main__add-btn,.main__edit-btn{
+.main__add-input,.main__add-btn,.main__edit-btn {
   outline:none;
 }
 .main__add-btn, .main__edit-btn,.main__delete-btn {
@@ -101,7 +102,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.main__task-input{
+.main__task-input {
   display: none;
   width: 226px
 }
