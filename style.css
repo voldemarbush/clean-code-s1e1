@@ -16,7 +16,6 @@
 .info__link {
   font-family: fantasy, cursive;
 }
-
 @media (max-width:768px) {
   .info {
     text-align: center;
@@ -27,7 +26,9 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.main__add-input, .main__task-input, .main__task-text {
+.main__add-input,
+.main__task-input,
+.main__task-text {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -35,17 +36,23 @@
 .main__add-wrapper {
   display: flex;
 }
-.main__todo-list, .main__completed-list {
+.main__todo-list,
+.main__completed-list {
   margin: 0;
   padding: 0px;
 }
-.main__task, .main__heading {
+.main__task,
+.main__heading {
   list-style: none;
 }
-.main__add-input,.main__add-btn,.main__edit-btn {
+.main__add-input,
+.main__add-btn,
+.main__edit-btn {
   outline: none;
 }
-.main__add-btn, .main__edit-btn,.main__delete-btn {
+.main__add-btn,
+.main__edit-btn,
+.main__delete-btn {
   background: none;
   border: 0px;
   color: #888;
@@ -54,11 +61,13 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-.main__add-btn:hover,.main__edit-btn:hover {
+.main__add-btn:hover,
+.main__edit-btn:hover {
   color: #3a3a3a;
 }
 /* Heading */
-.main__add-label, .main__heading {
+.main__add-label,
+.main__heading {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -67,7 +76,8 @@
   margin: 0;
   text-transform: uppercase;
 }
-.main__add-input, .main__task-input {
+.main__add-input,
+.main__task-input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -79,7 +89,8 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
-.main__add-input:focus, .main__task-input:focus {
+.main__add-input:focus,
+.main__task-input:focus {
   color: #333;
 }
 
@@ -97,7 +108,6 @@
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -125,16 +135,19 @@
 }
 
 /* Completed */
-.main__completed-list .main__task-text {
+.main__completed-list
+.main__task-text {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.main__edit-mode > .main__task-text {
+.main__edit-mode > 
+.main__task-text {
   display: none;
 }
-.main__edit-mode > .main__task-input {
+.main__edit-mode > 
+.main__task-input {
   display: inline-block;
   width: 224px;
 }
